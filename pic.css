@@ -1,0 +1,41 @@
+
+.img{
+	padding: 10px;
+}
+
+.i{
+	vertical-align: top;
+}
+.one{
+	background: #ded7d3;
+}
+.one >p{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	margin: 0;
+}
+
+.m:hover{
+	opacity: 1;
+}
+.m{
+	position: relative;
+	opacity: 0.7;
+  transition: 0.3s;
+	
+}
+.container{
+	display: flex;
+  flex-flow: row wrap;
+justify-content: center;
+	margin: 5px;
+	align-items: baseline;
+}
+
+.container div{
+
+padding: 10px;
+	flex-flow: row wrap;
+}
